@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Age Calculator</h1>
+        <p>Enter your date of birth</p>
+        <input type="date" id="dob" placeholder="dd-mm-yyyy"><br>
+        <button onclick="calculateAge()">Calculate Age</button><br><br>
+        <!-- <p class="ageIs" id="result">Your Age is 21 year old</p> -->
+        <div class="age">
+            <div id="year">0 Year</div>
+            <div id="month">0 Month</div>
+            <div id="days">0 Days</div>
+        </div>
+    </div>
+    <br><br>
+    <p id="comments" style="color: white; font-weight: 800; font-size: larger;">Waiting for your response!!!</p>
+    <script src="script.js"></script>
+</body>
+</html>
